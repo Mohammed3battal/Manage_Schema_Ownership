@@ -1,0 +1,1 @@
+ALTER AUTHORIZATION ON SCHEMA::[SchemaName] TO [NewOwner];
