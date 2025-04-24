@@ -1,0 +1,6 @@
+SELECT 
+    s.name AS SchemaName, 
+    u.name AS SchemaOwner 
+FROM sys.schemas s 
+JOIN sys.sysusers u ON s.principal_id = u.uid 
+ORDER BY s.name;
